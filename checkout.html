@@ -9,6 +9,7 @@
       #wallet{
         margin-left: 80%;
         /* margin-top: -60px; */
+        position: absolute;
       }
     </style>
   </head>
@@ -73,7 +74,7 @@ localStorage.setItem("amount",JSON.stringify(fix))
 if(fix<seat*100){
 
   alert("Insufficient Balance !")
-  break;
+
 }
 else{
   alert("Booking Successful!")
@@ -81,5 +82,4 @@ else{
 }
 
 }
-
 </script>
